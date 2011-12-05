@@ -12,7 +12,7 @@ Installation
 
 1. Simply copy the rules.xml at this path:
 
-    $SONAR_HOME/extensions/rules/php_codesniffer_rules/rules.xml
+        $SONAR_HOME/extensions/rules/php_codesniffer_rules/rules.xml
 
 2. Restart your sonar instance.
 
