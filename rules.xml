@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rules>
+  <rule key="Symfony2.WhiteSpace.DiscourageFitzinator" priority="MAJOR">
+    <category name="Maintainability" />
+    <name>WhiteSpaceDiscourageFitzinator</name>
+    <configKey>Symfony2.WhiteSpace.DiscourageFitzinator</configKey>
+    <description>Contains trailing whitespace</description>
+  </rule>
+  <rule key="Symfony2.Commenting.FunctionComment.Missing" priority="MAJOR">
+    <category name="Maintainability" />
+    <name>FunctionCommentMissing</name>
+    <configKey>Symfony2.Commenting.FunctionComment.Missing</configKey>
+    <description>@return tag missing</description>
+  </rule>
+  <rule key="Symfony2.Commenting.FunctionComment.SpacingBeforeParamType" priority="MAJOR">
+    <category name="Maintainability" />
+    <name>FunctionCommentSpacingBeforeParamType</name>
+    <configKey>Symfony2.Commenting.FunctionComment.SpacingBeforeParamType</configKey>
+    <description>Expected 1 space before variable type</description>
+  </rule>
+  <rule key="Symfony2.Commenting.FunctionComment.SpacingBeforeTags" priority="MAJOR">
+    <category name="Maintainability" />
+    <name>FunctionCommentSpacingBeforeTags</name>
+    <configKey>Symfony2.Commenting.FunctionComment.SpacingBeforeTags</configKey>
+    <description>There must be exactly one blank line before the tags in function comment</description>
+  </rule>
+  <rule key="Symfony2.Commenting.FunctionComment.MissingParamTag" priority="MAJOR">
+    <category name="Maintainability" />
+    <name>FunctionCommentMissingParamTag</name>
+    <configKey>Symfony2.Commenting.FunctionComment.MissingParamTag</configKey>
+    <description>Doc comment for %s missing</description>
+  </rule>
+  <rule key="Symfony2.Commenting.ClassComment.Missing" priority="MAJOR">
+    <category name="Maintainability" />
+    <name>ClassCommentMissing</name>
+    <configKey>Symfony2.Commenting.ClassComment.Missing</configKey>
+    <description>Class comment missing</description>
+  </rule>
+</rules>
