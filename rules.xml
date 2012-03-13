@@ -42,23 +42,17 @@
     <configKey>Squiz.ControlStructures.ControlSignature</configKey>
     <description>Expected &quot;if (...) {\n&quot;; found &quot;if(...)\n {\n&quot;</description>
   </rule>
-  <rule key="Symfony2.Commenting.FunctionComment.ParameterNamesNotAligned" priority="INFO">
-    <category name="Maintainability" />
-    <name>FunctionCommentParameterNamesNotAligned</name>
-    <configKey>Symfony2.Commenting.FunctionComment.ParameterNamesNotAligned</configKey>
-    <description>The variable names for parameters %s (%s) and %s (%s) do not align</description>
-  </rule>
   <rule key="Symfony2.Formatting.BlankLineBeforeReturn" priority="MAJOR">
     <category name="Maintainability" />
     <name>FormattingBlankLineBeforeReturn</name>
     <configKey>Symfony2.Formatting.BlankLineBeforeReturn</configKey>
     <description>Missing blank line before return statement</description>
   </rule>
-  <rule key="Symfony2.Commenting.FunctionComment.ParamNameNoMatch" priority="MAJOR">
+  <rule key="Symfony2.Commenting.FunctionComment.ParameterNamesNotAligned" priority="INFO">
     <category name="Maintainability" />
-    <name>FunctionCommentParamNameNoMatch</name>
-    <configKey>Symfony2.Commenting.FunctionComment.ParamNameNoMatch</configKey>
-    <description>Param name does not match function comment</description>
+    <name>FunctionCommentParameterNamesNotAligned</name>
+    <configKey>Symfony2.Commenting.FunctionComment.ParameterNamesNotAligned</configKey>
+    <description>The variable names for parameters %s (%s) and %s (%s) do not align</description>
   </rule>
   <rule key="Symfony2.Commenting.FunctionComment.MissingReturn" priority="MAJOR">
     <category name="Maintainability" />
@@ -66,10 +60,28 @@
     <configKey>Symfony2.Commenting.FunctionComment.MissingReturn</configKey>
     <description>Missing @return tag in function comment</description>
   </rule>
+  <rule key="Symfony2.Commenting.FunctionComment.ParamNameNoMatch" priority="MAJOR">
+    <category name="Maintainability" />
+    <name>FunctionCommentParamNameNoMatch</name>
+    <configKey>Symfony2.Commenting.FunctionComment.ParamNameNoMatch</configKey>
+    <description>Param name does not match function comment</description>
+  </rule>
   <rule key="Symfony2.Commenting.FunctionComment.ParamNameNoCaseMatch" priority="MAJOR">
     <category name="Maintainability" />
     <name>FunctionCommentParamNameNoCaseMatch</name>
     <configKey>Symfony2.Commenting.FunctionComment.ParamNameNoCaseMatch</configKey>
     <description>Doc comment does not match case of actual variable name</description>
+  </rule>
+  <rule key="Symfony2.Commenting.FunctionComment.SpacingBeforeParams" priority="MINOR">
+    <category name="Maintainability" />
+    <name>FunctionCommentSpacingBeforeParams</name>
+    <configKey>Symfony2.Commenting.FunctionComment.SpacingBeforeParams</configKey>
+    <description></description>
+  </rule>
+  <rule key="Symfony2.Commenting.FunctionComment.SpacingAfterParams" priority="MINOR">
+    <category name="Maintainability" />
+    <name>FunctionCommentSpacingAfterParams</name>
+    <configKey>Symfony2.Commenting.FunctionComment.SpacingAfterParams</configKey>
+    <description></description>
   </rule>
 </rules>
