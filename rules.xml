@@ -36,4 +36,16 @@
     <configKey>Symfony2.Commenting.ClassComment.Missing</configKey>
     <description>Class comment missing</description>
   </rule>
+  <rule key="Squiz.ControlStructures.ControlSignature" priority="MAJOR">
+    <category name="Maintainability" />
+    <name>ControlStructuresControlSignature</name>
+    <configKey>Squiz.ControlStructures.ControlSignature</configKey>
+    <description>Expected &quot;if (...) {\n&quot;; found &quot;if(...)\n {\n&quot;</description>
+  </rule>
+  <rule key="Symfony2.Commenting.FunctionComment.ParameterNamesNotAligned" priority="INFO">
+    <category name="Maintainability" />
+    <name>FunctionCommentParameterNamesNotAligned</name>
+    <configKey>Symfony2.Commenting.FunctionComment.ParameterNamesNotAligned</configKey>
+    <description>The variable names for parameters %s (%s) and %s (%s) do not align</description>
+  </rule>
 </rules>
